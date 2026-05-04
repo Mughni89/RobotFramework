@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.3 on win32)" generated="2026-02-12T15:26:04.536493" rpa="false" schemaversion="5">
+<suite id="s1" name="Onboard scenario" source="C:\Users\Abdul\Automation\robot\Test\Scenario\Onboard_scenario.robot">
+<test id="s1-t1" name="User successfull login app" line="9">
+<kw name="Android_config.Open the Apps" type="SETUP">
+<msg time="2026-02-12T15:26:04.584749" level="FAIL">No keyword with name 'Android_config.Open the Apps' found.</msg>
+<status status="FAIL" start="2026-02-12T15:26:04.584684" elapsed="0.000131">No keyword with name 'Android_config.Open the Apps' found.</status>
+</kw>
+<kw name="Teardown test" type="TEARDOWN">
+<msg time="2026-02-12T15:26:04.586896" level="FAIL">No keyword with name 'Teardown test' found.</msg>
+<status status="FAIL" start="2026-02-12T15:26:04.586844" elapsed="0.000105">No keyword with name 'Teardown test' found.</status>
+</kw>
+<status status="FAIL" start="2026-02-12T15:26:04.582916" elapsed="0.004265">Setup failed:
+No keyword with name 'Android_config.Open the Apps' found.
+
+Also teardown failed:
+No keyword with name 'Teardown test' found.</status>
+</test>
+<status status="FAIL" start="2026-02-12T15:26:04.538540" elapsed="0.049663"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Onboard scenario" id="s1" pass="0" fail="1" skip="0">Onboard scenario</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-02-12T15:26:04.581109" level="ERROR">Error in file 'C:\Users\Abdul\Automation\robot\Test\Scenario\Onboard_scenario.robot' on line 2: Resource file 'C:\Users\Abdul\Automation\robot\Test\Scenario\Test\Step\Onboard_step.robot' does not exist.</msg>
+<msg time="2026-02-12T15:26:04.581897" level="ERROR">Error in file 'C:\Users\Abdul\Automation\robot\Test\Scenario\Onboard_scenario.robot' on line 3: Resource file 'C:\Users\Abdul\Automation\robot\Test\Scenario\Resources\Android_config.robot' does not exist.</msg>
+</errors>
+</robot>
