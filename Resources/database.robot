@@ -3,25 +3,25 @@ Library  DatabaseLibrary
 Library  Collections
 Library  String
 # *** Variables ***
-# ${DB_HOST}          103.196.154.5
-# ${DB_PORT}          5432
-# ${DB_USER}          suitmedia
-# ${DB_PASSWORD}      zKAA^M2LwLd7^peDv@oK9d9p5X!xfi&@$8TnRfuf
-# ${DB_NAME}          suitmedia_cbi
+# ${DB_HOST}          ***.***.***.*
+# ${DB_PORT}          ****
+# ${DB_USER}          *********
+# ${DB_PASSWORD}      *************************************
+# ${DB_NAME}          *************
 
 # *** Variables ***
-# ${DB_HOST}          110.239.68.7
-# ${DB_PORT}          5431
-# ${DB_USER}          postgres
-# ${DB_PASSWORD}      Ghsdgy9s#73&pk6s8F8J9q
-# ${DB_NAME}          skorku_demo
+# ${DB_HOST}          ***.***.**.*
+# ${DB_PORT}          ****
+# ${DB_USER}          ********
+# ${DB_PASSWORD}      **************************
+# ${DB_NAME}          ***********
 
 *** Variables ***
-${DB_HOST}          110.239.85.232
-${DB_PORT}          5431
-${DB_USER}          postgres
-${DB_PASSWORD}      Ghsdgy9s#73&pk6s8F8J9q
-${DB_NAME}          skorku_demo
+${DB_HOST}          ***.***.**.***
+${DB_PORT}          ****
+${DB_USER}          ********
+${DB_PASSWORD}      **************************
+${DB_NAME}          ***********
 
 *** Keywords ***
 Connect To Postgres
